@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from hipython.ext.auth import create_user
+from hipython.ext.database import db
+from hipython.models import Product
 
 
 def create_db():
